@@ -51,12 +51,13 @@ window.onload = function () {
 
       if (counter + space >= guesses.length) {
         showLives.innerHTML = "You Win!";
-        var winReplay = confirm("Congrats! Do you want to play")
+        var winReplay = confirm("Congrats! You Won! Do you want to play")
             if(winReplay){
             location.reload();
             } else {
               alert("Thank you for playing");
             }
+      //I was not able to add the win count. 
       }
   }
 
