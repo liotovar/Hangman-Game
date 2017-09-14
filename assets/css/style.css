@@ -1,0 +1,38 @@
+body{
+	background-color: black;
+	color: white;
+	font-size: 2.5em;
+}
+h1{
+	text-align: center;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../images/hangmanGame.png);
+    height: 400px;
+    background-color: black;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#game{
+	border-top: 1px dashed white;
+	text-align: center;
+}
+
+.borders{
+	border: 1px dotted white;
+	margin: 5px;
+	text-align: center;
+}
+
+ul li{
+	display: inline;
+	margin: 5px;
+}
+
+#hold, 
+#mylives, 
+#myguesses,{
+	text-align: center;
+}
